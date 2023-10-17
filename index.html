@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit App</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+
+    <div class="header">
+        DrumKit App
+    </div>
+    <h4>Press the Keys on your keyboard to play the sounds.</h4>
+
+    <div class="container">
+        <div class="soundbox one ">
+            <h3>Hi-Hats</h3>
+            <p>Press <span id="key">A</span> </p>
+            <audio class="hihat" src="./assets/sounds/hi-hats.mp3"></audio>
+            <button class="playaudio">Play Sound</button>
+        </div>
+
+        <div class="soundbox two">
+            <h3>Drum Roll</h3>
+            <p>Press <span id="key">D</span> </p>
+            <audio class="drumroll" src="./assets/sounds/drum-roll.mp3"></audio>
+            <button class="playaudio">Play Sound</button>
+
+        </div>
+
+        <div class="soundbox three">
+            <h3>Snares</h3>
+            <p>Press <span id="key"> S </span> </p>
+            <audio class="snares" src="./assets/sounds/Snares.mp3"></audio>
+            <button class="playaudio">Play Sound</button>
+
+        </div>
+
+        <div class="soundbox four ">
+            <h3>808 Kick</h3>
+            <p>Press <span id="key">K</span> </p>
+            <audio class="kick" src="./assets/sounds/808.mp3"></audio>
+            <button class="playaudio">Play Sound</button>
+
+        </div>
+
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>
